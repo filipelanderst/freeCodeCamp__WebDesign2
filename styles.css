@@ -1,0 +1,98 @@
+HTML {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+  hyphens: auto;
+  font-family: "montserrat";
+  color: #333;
+}
+
+body {
+  border: 1px solid #777;
+  padding: 0rem 4rem 2rem 4rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.name input,
+.email input {
+  border-radius: 0.25rem;
+  border: 1px solid #bbb;
+  width: 100%;
+  height: 1.5rem;
+}
+
+.age input {
+  border-radius: 0.25rem;
+  border: 1px solid #bbb;
+}
+
+.age-current {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.age-current .age input {
+  width: 40vh;
+}
+
+.age-current .current select {
+  width: 30vh;
+  margin-right: -0.4rem;
+}
+
+.gender {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#gender,
+.languages p {
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+.gender label {
+  margin: 0;
+}
+
+.gender #female,
+.gender #male {
+  margin: 0 0.25rem;
+}
+
+.gender #female {
+  margin-left: 1rem;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -1rem;
+}
+
+.languages div label {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.js,
+.py,
+.rby,
+.php {
+  display: flex;
+  align-items: center;
+}
+
+.story {
+}
+
+#submit {
+  margin-top: 0.5rem;
+}
